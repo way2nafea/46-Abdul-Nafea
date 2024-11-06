@@ -1,4 +1,4 @@
-# CP Assignment 3 Code Submission
+# CP Assignment 3 Code Submission (Div D)
 This assignment is a pair assignment where every student will be paired with a different student. Each pair will give task to each other once the program is done they have to upload the code in this repository.
 
 ## Objective: The objective of this assignment is to help the students understand how to collaborate in an open source project.
