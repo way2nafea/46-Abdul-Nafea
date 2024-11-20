@@ -1,0 +1,57 @@
+/*
+    Assignment No 3
+
+    Title : To Print largest of 3 number on the screen.
+
+    Name : Shah Sufiyan
+
+    Roll no / Uin : 30 / 241P099
+
+    year / Div : FE / D
+
+
+    Task given by : 
+    Name / Roll no : Fardeen Khan / 27
+
+*/
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, num3;
+
+    // Asking the user for input
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    printf("Enter the third number: ");
+    scanf("%d", &num3);
+
+    // Finding the largest number
+    if (num1 >= num2 && num1 >= num3) {
+        printf("The largest number is: %d\n", num1);
+    } else if (num2 >= num1 && num2 >= num3) {
+        printf("The largest number is: %d\n", num2);
+    } else {
+        printf("The largest number is: %d\n", num3);
+    }
+
+    return 0;
+}
+
+/* output
+Enter the first number: 13
+Enter the second number: 100
+Enter the third number: 125
+The largest number is: 125
+*/
+
