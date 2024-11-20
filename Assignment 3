@@ -1,0 +1,49 @@
+/*
+  Roll No.: 34
+  Student Name: Tamanna Jaiswar
+  Program Title: Swapping two integers
+
+  Task Given By:
+    - Roll No. of Assignee: 13
+    - Assignee Name: Sameera Khan
+*/
+
+
+/*
+Title : WAP to swap two integers
+*/
+
+
+#include <stdio.h>
+
+// Function to swap two integers
+void swap(int *a, int *b) {
+    int temp = *a;  // Store the value at address a in temp
+    *a = *b;        // Assign the value at address b to address a
+    *b = temp;      // Assign the value in temp to address b
+}
+
+int main() {
+    int x, y;
+
+    printf("Enter two numbers to swap:\n");
+    scanf("%d %d", &x, &y);
+
+    printf("Before swapping: x = %d, y = %d\n", x, y);
+
+    // Call the swap function
+    swap(&x, &y);
+
+    printf("After swapping: x = %d, y = %d\n", x, y);
+
+    return ;
+}
+
+/* OUTPUT
+Enter two numbers to swap:
+4
+7
+Before swapping: x = 4, y = 7
+After swapping: x = 7, y = 4
+*/
+
